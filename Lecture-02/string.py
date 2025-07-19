@@ -30,3 +30,8 @@ st4 = "King of Jungle"
 print(st4[0])      # First character
 print(st4[-1])     # Last character
 print(st4[5:10])    # Characters from index 5 to 9 (Slicing)
+print()
+
+# Negative Indexing
+
+print(st4[-4 : -1])
