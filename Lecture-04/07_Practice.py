@@ -2,13 +2,13 @@
 
 sub = {}
 
-sub1 = {"phy" : 90}
-sub.update(sub1)
+x = int(input("phy: "))
+sub.update({"phy" : x})
 
-sub2 = {"che" : 95}
-sub.update(sub2)
+y = int(input("che: "))
+sub.update({"che" : y})
 
-sub3 = {"math" : 100}
-sub.update(sub3)
+z = int(input("math: "))
+sub.update({"math" : z})
 
 print(sub)
