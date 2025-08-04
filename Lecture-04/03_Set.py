@@ -1,5 +1,6 @@
-# Each element in set is immutable
+# Set is mutable but each element in set is immutable
 # Set is unordered
+# Dictionary is key-value pair where set is just a collection of unique items
 
 collection = {1,2,3,4, "hello", "world"}  #Ignore duplicate values
 
